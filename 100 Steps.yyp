@@ -87,6 +87,14 @@
             }
         },
         {
+            "Key": "719bcd5f-4bd6-4f68-996d-56a283c7e763",
+            "Value": {
+                "id": "a2e986c4-92a5-41ea-98fe-82267f2f3070",
+                "resourcePath": "sprites\\spr_Wall\\spr_Wall.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "7517682e-24db-446c-b1ca-309a444a8e82",
             "Value": {
                 "id": "7cbfa9e0-9aa3-41a8-b764-275b35dc0ebc",
@@ -167,6 +175,14 @@
             }
         },
         {
+            "Key": "de1cc353-44b4-470a-83e9-8f1418ae043e",
+            "Value": {
+                "id": "457f46ec-4f09-41f4-8eac-720881e2801c",
+                "resourcePath": "objects\\obj_Wall\\obj_Wall.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "e3335518-b864-4e0f-ae72-b312a681a4d0",
             "Value": {
                 "id": "6497ffd1-bfcd-480d-980d-846a45c11331",
@@ -175,11 +191,35 @@
             }
         },
         {
+            "Key": "ef91b7b8-cb47-4d57-9b46-41c419b0cecd",
+            "Value": {
+                "id": "c6d9be61-16d5-4507-b1a7-9ccdfde35615",
+                "resourcePath": "sprites\\spr_Hero\\spr_Hero.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "f17f30af-c3a3-4007-97ea-617370ba9b9b",
+            "Value": {
+                "id": "10aa853c-f0e8-4776-96f5-c20aba3469c7",
+                "resourcePath": "scripts\\MACRO\\MACRO.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "f418569b-3bdd-4706-a0e4-364317f54032",
             "Value": {
                 "id": "df2d80c2-4f77-460f-a363-c82ebd6d6b6d",
                 "resourcePath": "options\\mac\\options_mac.yy",
                 "resourceType": "GMMacOptions"
+            }
+        },
+        {
+            "Key": "f923a4e4-5490-4b5d-b705-c7e7d11f05ec",
+            "Value": {
+                "id": "fa7929d8-fa57-4cf3-b106-d799d1033e86",
+                "resourcePath": "objects\\obj_Hero\\obj_Hero.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -192,7 +232,7 @@
         }
     ],
     "script_order": [
-        
+        "f17f30af-c3a3-4007-97ea-617370ba9b9b"
     ],
     "tutorial": ""
 }
