@@ -23,7 +23,7 @@ walk_anim_length = 0.1;
 walk_anim_time = 0;
 
 //Animation speed
-image_speed = 0;
+image_speed = 0.5;
 
 //Order in which the frames has to be displayed during the animation
 frames = [0, 1, 2, 1, 0];
@@ -39,6 +39,8 @@ var tile_layer = layer_get_id("Walls");
 //Get the tilemap ID
 tile_map = layer_tilemap_get_id(tile_layer);
 
-var tile_layer_fog = layer_get_id("Fog");
-//Get the tilemap fog ID
-tile_map_fog = layer_tilemap_get_id(tile_layer_fog);
+//Hero field_of_view
+field_of_view = 6
+
+//Remaining Steps
+remaining_steps = 100

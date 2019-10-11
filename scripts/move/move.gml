@@ -8,7 +8,7 @@ var components = global.components[dir];
 var dx = components[0];
 var dy = components[1];
 
-//Move right
+//Move
 if (state == states.idle)
 {
 	//Collision Handler
@@ -22,7 +22,10 @@ if (state == states.idle)
 	
 		x_pos = x_to;
 		y_pos = y_to;
-	
+		
+		//Remove 1 step from the count
+		remaining_steps -= 1;
+		
 		state = states.walking;
 	
 		//We get the good sprite according to the direction of our character
