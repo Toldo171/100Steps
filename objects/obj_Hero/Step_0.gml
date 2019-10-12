@@ -30,6 +30,10 @@ if (state == states.walking)
 		walk_anim_time = 0;
 		t = 1;
 		state = states.idle;
+		
+		//We launch idle animation again, and get the good sprite according to the direction of our character
+		image_speed = 0.5;
+		sprite_index = idle_sprite[dir];
 	}
 	
 	//lerp (linear interpolation) is used to compute where the player should be drawn at every frame. Example : lerp(32, 64, 0.1) = 32 + 3.2 = 35.2

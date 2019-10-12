@@ -3,17 +3,24 @@
 //------------------------------------------------------------
 //argument0 = direction
 
-var dir = argument0; //can be left, right, up, down
-var components = global.components[dir];
+var dir_temp = argument0; //can be left, right, up, down
+var components = global.components[dir_temp];
 var dx = components[0];
 var dy = components[1];
 
 //Move
 if (state == states.idle)
 {
+	//Even if there is an obstacle, we update the direction of the sprite
+	dir = dir_temp;
+	sprite_index = idle_sprite[dir];
+	
 	//Collision Handler
 	if !(tilemap_get(tile_map, x_pos + dx, y_pos + dy))
 	{
+		//Stop idle animation
+		image_speed = 0;
+		
 		x_from = x_pos;
 		y_from = y_pos;
 	
@@ -29,6 +36,6 @@ if (state == states.idle)
 		state = states.walking;
 	
 		//We get the good sprite according to the direction of our character
-		sprite_index = sprite[dir];
+		sprite_index = anim_sprite[dir_temp];
 	}
 }
