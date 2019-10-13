@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "0a5f7b2f-91f6-478b-9b90-f362f7383ccd",
+            "Value": {
+                "id": "e1d3e49d-f52d-47ab-9374-8c3a782e627e",
+                "resourcePath": "scripts\\removeFog\\removeFog.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "0c41d879-5b83-466c-bda9-96d0b4058b0e",
             "Value": {
                 "id": "3a6a9597-badc-4708-a4ff-3d31331fc007",
@@ -90,7 +98,7 @@
             "Key": "275d9974-5a47-4cf7-a13b-62e8789d43a1",
             "Value": {
                 "id": "247de999-3f19-4037-9467-5a48d6a60853",
-                "resourcePath": "sprites\\spr_Lantern\\spr_Lantern.yy",
+                "resourcePath": "sprites\\spr_Pixie\\spr_Pixie.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -108,6 +116,14 @@
                 "id": "f6d44f8d-a2e9-479a-a59c-81de4e68e2f8",
                 "resourcePath": "scripts\\destroyOnCollision\\destroyOnCollision.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "34cd0deb-c73a-4535-b75b-f2ea238b9a7c",
+            "Value": {
+                "id": "299e1b21-20dc-4e28-9212-2bc89b0a5247",
+                "resourcePath": "views\\34cd0deb-c73a-4535-b75b-f2ea238b9a7c.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -346,7 +362,7 @@
             "Key": "e211e335-cd0d-4d5c-8bf0-41a479c6041d",
             "Value": {
                 "id": "1c83c5f1-a78f-482b-bdae-d669722c5c2f",
-                "resourcePath": "objects\\obj_Lantern\\obj_Lantern.yy",
+                "resourcePath": "objects\\obj_Pixie\\obj_Pixie.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -437,6 +453,7 @@
         "9a19e4c9-967d-4a3a-ab1d-99348acd6785",
         "a3098406-a2c2-47e3-adf4-e9eecf9c7819",
         "345e2916-a512-4c7b-bf7f-986236f41f47",
+        "0a5f7b2f-91f6-478b-9b90-f362f7383ccd",
         "f17f30af-c3a3-4007-97ea-617370ba9b9b"
     ],
     "tutorial": ""

@@ -5,6 +5,9 @@
 
 if (keyboard_check_pressed(vk_space) and hasGun = true)
 {	
+	//Remove 1 step from the count
+	argument0.remaining_steps -= 1;
+	
 	//The following code will be applied on the new created instance of projectile
 	with (instance_create_layer(x, y, "Projectiles", obj_Projectile))
 	{
