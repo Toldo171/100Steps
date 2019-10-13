@@ -8,22 +8,8 @@ if dist_from_hero <= obj_Hero.field_of_view
 	image_alpha = (dist_from_hero - 0.2) / obj_Hero.field_of_view;
 }
 
-/*if dist_from_hero == 0
-{
-	image_alpha = 0;
-	
-}
-else if dist_from_hero == 1
-{
-	image_alpha = 0.7;
-}
-else if dist_from_hero == 2
-{
-	image_alpha = 0.9;
-}*/
 
-
-if image_alpha <= 0.3
+if image_alpha <= 0.4
 {
 	instance_destroy();
 }

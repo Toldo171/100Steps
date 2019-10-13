@@ -49,7 +49,7 @@ var tile_layer = layer_get_id("Walls");
 tile_map = layer_tilemap_get_id(tile_layer);
 
 //Hero field_of_view
-field_of_view = 6
+field_of_view = 3
 
 //Remaining Steps
 remaining_steps = 100
