@@ -1,10 +1,10 @@
 if (x == obj_Hero.x and y == obj_Hero.y)
 {
 	field_of_view = 8;
-	hasPixie = true;
+	obj_Hero.hasPixie = true;
 }
 
-if (hasPixie = true)
+if (obj_Hero.hasPixie = true)
 {
 	x_end = obj_Hero.x + 20;
 	y_end = obj_Hero.y - 20;

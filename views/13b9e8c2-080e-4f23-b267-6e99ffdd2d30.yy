@@ -8,7 +8,7 @@
         "cab6f2e5-1cb0-4fe8-9904-334c556b8155"
     ],
     "filterType": "GMScript",
-    "folderName": "Hero",
+    "folderName": "Characters",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

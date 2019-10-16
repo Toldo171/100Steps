@@ -2,6 +2,7 @@
 //Handles character movement
 //------------------------------------------------------------
 //argument0 = direction
+//argument1 = character
 
 var dir_temp = argument0; //can be left, right, up, down
 var components = global.components[dir_temp];
@@ -31,7 +32,7 @@ if (state == states.idle)
 		y_pos = y_to;
 		
 		//Remove 1 step from the count
-		remaining_steps -= 1;
+		if (argument1 == obj_Hero) { remaining_steps -= 1; }
 		
 		state = states.walking;
 	

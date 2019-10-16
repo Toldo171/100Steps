@@ -1,6 +1,3 @@
-//Does hero have the pixie ?
-hasPixie = false;
-
 //Pixie field of view
 field_of_view = -1;
 

@@ -1,11 +1,10 @@
-//Initialiaze the states of our hero
 state = states.idle;
 
 //Whatever the value of x, x_pos will always move 32 by 32 pixels (Example: if 32 < x < 63, x_pos = x div 32 = 1)
 x_pos = x div tile_width;
 y_pos = y div tile_height;
 
-//Hero direction
+//Character direction
 dir = directions.down
 
 //Where is the hero, and where he is going to
@@ -42,13 +41,5 @@ var tile_layer = layer_get_id("Walls");
 //Get the tilemap ID
 tile_map = layer_tilemap_get_id(tile_layer);
 
-//Hero field_of_view
-field_of_view = 3
-
-//Remaining Steps
-remaining_steps = 50;
-remaining_lives = 10;
-
-//Objects assigned to the hero
-hasGun = false;
-hasPixie = false;
+//Objects assigned to the ennemy
+hasGun = true;
