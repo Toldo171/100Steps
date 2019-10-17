@@ -1,14 +1,15 @@
 //Global values need to be called for them to be defined. gml_pragma will execute a small snippet of code when the game initializes
 gml_pragma("global", "MACRO()");
 
-//Les macros sont des variables globales qui ne peuvent jamais être modifiées, et qui sont accessibles depuis n'importe quelle pièce
+//Les macros sont des variables globales qui ne peuvent jamais Ãªtre modifiÃ©es, et qui sont accessibles depuis n'importe quelle piÃ¨ce
 #macro tile_width 32
 #macro tile_height 32
 
 enum states
 {
 	idle,
-	walking
+	walking,
+	dead
 }
 
 enum directions

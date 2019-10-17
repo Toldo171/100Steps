@@ -2,4 +2,7 @@
 assignWeapon(obj_Hero);
 
 //Create the projectile and launch it
-shoot(obj_Hero);
+if (keyboard_check_pressed(vk_space) and obj_Hero.hasGun = true and obj_Hero.state != states.dead)
+{
+	shoot(obj_Hero);
+}
