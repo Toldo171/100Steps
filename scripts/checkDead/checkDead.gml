@@ -3,7 +3,7 @@
 //------------------------------------------------------------
 //argument0 = NA
 
-if (remaining_steps <= 0 and state == states.idle)
+if ((remaining_steps <= 0 and state == states.idle) or currentHearts == 0)
 {
 	//Hero is dead
 	state = states.dead;

@@ -20,13 +20,14 @@ if (state == states.dead)
 		image_speed = 0.5;
 		sprite_index = idle_sprite[dir];
 		
-		//Removing 1 life, reinitializing steps, position and direction
+		//Removing 1 life, reinitializing steps, position, direction, hearts
 		remaining_lives -= 1;
 		remaining_steps = 50;
 		x = tile_width * 7;
 		y = tile_width * 5;
 		x_pos = x div tile_width;
 		y_pos = y div tile_height;
+		currentHearts = maxHearts;
 	}
 	
 	//According to the time of the animation, a specific frame is displayed. Each frame will be displayed the same amount of time.

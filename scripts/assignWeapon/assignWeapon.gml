@@ -7,6 +7,7 @@
 if (x == argument0.x and y == argument0.y)
 {
 	argument0.hasGun = true;
+	argument0.damage = weaponDamage;
 }
 
 //Assign the gun to the hero

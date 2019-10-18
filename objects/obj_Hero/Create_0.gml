@@ -30,6 +30,8 @@ remaining_lives = 10;
 //Objects assigned to the hero
 hasGun = false;
 hasPixie = false;
+damage = 0;
 
 //life
-life = 3;
+currentHearts = 3;
+maxHearts = 3;

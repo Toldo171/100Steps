@@ -19,12 +19,13 @@ idle_sprite[directions.down] = spr_Hero_Front;
 
 //Objects assigned to the ennemy
 hasGun = true;
+damage = 1;
 
 //Alarms for moving and shooting AI
 alarm[0] = -1;
 alarm[1] = -1;
-move_delay = 60;
-shoot_delay = 15;
+move_delay = 90;
+shoot_delay = 60;
 
 //life
-life = 1;
+currentHearts = 1;
