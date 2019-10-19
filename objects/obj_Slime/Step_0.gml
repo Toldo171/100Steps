@@ -17,7 +17,7 @@ animateCharacter();
 //Shooting AI
 if (alarm[1] == 0)
 {
-	shoot(self, obj_Projectile_Ennemy);
+	shoot(dir, self, obj_Projectile_Ennemy);
 }
 
 //Kill slime

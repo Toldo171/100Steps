@@ -1,1 +1,0 @@
-weaponDamage = 1;

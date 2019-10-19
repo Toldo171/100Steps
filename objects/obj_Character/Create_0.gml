@@ -29,4 +29,5 @@ var tile_layer = layer_get_id("Walls");
 tile_map = layer_tilemap_get_id(tile_layer);
 
 //life
-life = 3;
+damage = 1;
+currentHearts = 3;

@@ -23,15 +23,16 @@ death_sprite = spr_Hero_Death;
 //Hero field_of_view
 field_of_view = 3
 
-//Remaining Steps
+//Objects assigned to the hero
+hasBluePixie = false;
+hasRedPixie = false;
+hasYellowPixie = false;
+hasGreenPixie = false;
+
+//Stats
 remaining_steps = 50;
 remaining_lives = 10;
-
-//Objects assigned to the hero
-hasGun = false;
-hasPixie = false;
-damage = 0;
-
-//life
+damage = 1
 currentHearts = 3;
 maxHearts = 3;
+keys = 0;

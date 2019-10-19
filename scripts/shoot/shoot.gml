@@ -1,16 +1,19 @@
 //------------------------------------------------------------
 //Shoot
 //------------------------------------------------------------
-//argument0 = Hero
-//argument1 = Projectile
+//argument0 = Direction
+//argument1 = Hero
+//argument2 = Projectile
 
 //Remove 1 step from the count
-if (argument0 == obj_Hero) { argument0.remaining_steps -= 1; }
+if (argument1 == obj_Hero) { argument1.remaining_steps -= 1; }
 	
 //The following code will be applied on the new created instance of projectile
-with (instance_create_layer(x, y, "Projectiles", argument1))
+with (instance_create_layer(x, y, "Projectiles", argument2))
 {
 	//Set the direction of the projectile
-	dir = argument0.dir;
-	direction = global.dir_projectile[? argument0.dir];
+	direction = global.dir_projectile[? argument0];
 }
+
+//Update the direction of the character
+sprite_index = argument1.idle_sprite[argument0];
