@@ -1,6 +1,6 @@
 //Définition de la police et de la couleur
 //draw_set_font(font_fontawesome);
-draw_set_color(c_black);
+draw_set_color(c_white);
 draw_set_halign(fa_left);
 draw_set_valign(fa_top);
 
@@ -11,7 +11,7 @@ draw_text(x_step_text, y_step_text, string(obj_Hero.remaining_steps));
 draw_steps = lerp(draw_steps, obj_Hero.remaining_steps, 0.25);
 draw_set_color(c_yellow);
 //draw_rectangle(x_topStats + 30, y_topStats - 12, x_topStats + 30 + (99 * draw_steps / obj_Hero.max_steps), y_topStats-12+22, false);
-draw_set_color(c_black);
+draw_set_color(c_white);
 
 //Remaining lives
 draw_sprite(spr_Hero_Front, 0, x_life, y_life);
