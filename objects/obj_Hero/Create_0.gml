@@ -1,6 +1,9 @@
 //Inherit from Character object
 event_inherited();
 
+//Random Seed
+randomize();
+
 //Order in which the frames has to be displayed during the animation
 frames = [2, 1, 0, 0, 1, 2, 3, 4];
 walk_anim_frames = 8;

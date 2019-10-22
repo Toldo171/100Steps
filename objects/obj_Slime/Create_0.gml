@@ -23,6 +23,12 @@ alarm[1] = -1;
 move_delay = 90;
 shoot_delay = 60;
 
+//Possible loots and droprates
+drop_rates_ennemy_keys = [obj_Heart, obj_Steps, obj_Life, obj_Key]
+drop_rates_ennemy_values = [0.1, 0.1, 0.05, 0.05]
+array_size = array_length_1d(drop_rates_ennemy_values);
+thresholds = [1, 0, 0, 0, 0]
+
 //Stats
 damage = 1;
 currentHearts = 1;

@@ -762,7 +762,7 @@
             "Key": "f032841a-cf95-4f5e-bc44-da93df3dd334",
             "Value": {
                 "id": "c249a0a8-521c-4158-8ff9-75d1879e30bb",
-                "resourcePath": "scripts\\lootEnnemy\\lootEnnemy.yy",
+                "resourcePath": "scripts\\loot\\loot.yy",
                 "resourceType": "GMScript"
             }
         },
