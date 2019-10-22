@@ -759,6 +759,14 @@
             }
         },
         {
+            "Key": "f032841a-cf95-4f5e-bc44-da93df3dd334",
+            "Value": {
+                "id": "c249a0a8-521c-4158-8ff9-75d1879e30bb",
+                "resourcePath": "scripts\\lootEnnemy\\lootEnnemy.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "f17f30af-c3a3-4007-97ea-617370ba9b9b",
             "Value": {
                 "id": "10aa853c-f0e8-4776-96f5-c20aba3469c7",
@@ -807,6 +815,14 @@
             }
         },
         {
+            "Key": "fa68bf31-eaa5-4ab6-ac86-e518a544ce09",
+            "Value": {
+                "id": "0a1aa357-ee45-41fd-87c0-37eadba72a81",
+                "resourcePath": "views\\fa68bf31-eaa5-4ab6-ac86-e518a544ce09.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "fa6f4687-a158-43ad-95b5-d40f2e3365c1",
             "Value": {
                 "id": "fc5a61a6-cb15-47ae-bdf9-fc5618781d55",
@@ -825,7 +841,8 @@
         "a3098406-a2c2-47e3-adf4-e9eecf9c7819",
         "0a5f7b2f-91f6-478b-9b90-f362f7383ccd",
         "f17f30af-c3a3-4007-97ea-617370ba9b9b",
-        "5bfd61fe-539b-4868-b631-424c8e4f70e2"
+        "5bfd61fe-539b-4868-b631-424c8e4f70e2",
+        "f032841a-cf95-4f5e-bc44-da93df3dd334"
     ],
     "tutorial": ""
 }

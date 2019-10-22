@@ -23,16 +23,6 @@ if (alarm[1] == 0)
 //Kill slime
 if (currentHearts == 0)
 {
-	var rand = irandom_range(1, 100);
-	
-	if (80 < rand and rand <= 95)
-	{
-		instance_create_layer(x, y, "Objects", obj_Heart)
-	}
-	else if (95 < rand and rand <= 100)
-	{
-		instance_create_layer(x, y, "Objects", obj_Key)
-	}
-	
+	lootEnnemy();
 	instance_destroy();
 }
