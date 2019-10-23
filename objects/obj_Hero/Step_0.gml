@@ -45,3 +45,8 @@ animateDeath();
 
 //Check dead
 checkDead();
+
+//If the room has changed, we update the value of the tileset to recognize walls and collision
+tile_layer = layer_get_id("Walls");
+//Get the tilemap ID
+tile_map = layer_tilemap_get_id(tile_layer);

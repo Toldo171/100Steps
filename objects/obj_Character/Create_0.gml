@@ -24,7 +24,7 @@ death_anim_time = 0;
 //Animation speed
 image_speed = 0.5;
 
-var tile_layer = layer_get_id("Walls");
+tile_layer = layer_get_id("Walls");
 //Get the tilemap ID
 tile_map = layer_tilemap_get_id(tile_layer);
 

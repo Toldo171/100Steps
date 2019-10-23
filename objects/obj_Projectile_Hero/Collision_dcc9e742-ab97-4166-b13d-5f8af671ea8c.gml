@@ -1,6 +1,6 @@
 with (other)
 {
-	var rand = irand(1, 100)
+	var rand = irandom_range(1, 100);
 	
 	//Inflict damage according to crit rate and crit damage
 	if (rand <= obj_Hero.crit_rate)
