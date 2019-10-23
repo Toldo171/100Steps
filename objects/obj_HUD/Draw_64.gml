@@ -60,3 +60,14 @@ if (obj_Hero.hasBluePixie == true) { draw_sprite(spr_Blue_Pixie, 0, x_blue_pixie
 if (obj_Hero.hasRedPixie == true) { draw_sprite(spr_Red_Pixie, 0, x_red_pixie, y_red_pixie); }
 if (obj_Hero.hasYellowPixie == true) { draw_sprite(spr_Yellow_Pixie, 0, x_yellow_pixie, y_yellow_pixie); }
 if (obj_Hero.hasGreenPixie == true) { draw_sprite(spr_Green_Pixie, 0, x_green_pixie, y_green_pixie); }
+
+
+//DEBUG
+/*draw_text(32, 300, string(obj_Hero.x));
+draw_text(64, 300, string(obj_Hero.y));
+draw_text(32, 330, string(obj_Hero.x_pos));
+draw_text(64, 330, string(obj_Hero.y_pos));
+draw_text(32, 360, string(obj_Hero.x_from));
+draw_text(64, 360, string(obj_Hero.y_from));
+draw_text(32, 390, string(obj_Hero.x_to));
+draw_text(64, 390, string(obj_Hero.y_to));

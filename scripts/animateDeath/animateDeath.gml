@@ -21,6 +21,7 @@ if (state == states.dead)
 		sprite_index = idle_sprite[dir];
 		
 		//Removing 1 life, reinitializing steps, position, direction, hearts
+		room_goto(spawning_room);
 		remaining_lives -= 1;
 		remaining_steps = 50;
 		x = tile_width * 7;

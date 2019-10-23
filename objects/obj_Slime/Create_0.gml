@@ -30,5 +30,5 @@ array_size = array_length_1d(drop_rates_ennemy_values);
 thresholds = [1, 0, 0, 0, 0]
 
 //Stats
-damage = 1;
-currentHearts = 1;
+attack = 1;
+currentHearts = 10;

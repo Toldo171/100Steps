@@ -1,3 +1,3 @@
 target_room = room_0_1;
-x_target = 127;
-y_target = 160;
+x_target = 5 * tile_width;
+y_target = 5 * tile_height;

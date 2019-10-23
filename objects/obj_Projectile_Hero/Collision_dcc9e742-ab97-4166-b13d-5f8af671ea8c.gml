@@ -1,6 +1,6 @@
 with (other)
 {
-	currentHearts -= obj_Hero.damage;
+	currentHearts -= obj_Hero.attack;
 }
 
 instance_destroy();
