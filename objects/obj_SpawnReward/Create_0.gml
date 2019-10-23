@@ -1,4 +1,4 @@
-x_reward = tile_width * 7;
+x_reward = tile_width * 9;
 y_reward = tile_width * 5;
 hasSpawned = false;
 
