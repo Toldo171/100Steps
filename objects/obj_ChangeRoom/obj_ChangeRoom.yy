@@ -1,34 +1,34 @@
 {
-    "id": "e84dcb8d-e578-4642-a35e-bebd02906c90",
+    "id": "deb29d9f-c360-4443-b645-f8d0f26e3daa",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_Green_Pixie",
+    "name": "obj_ChangeRoom",
     "eventList": [
         {
-            "id": "39f6e4fe-3a2b-4d25-a35e-4ea63c4b245b",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 3,
-            "m_owner": "e84dcb8d-e578-4642-a35e-bebd02906c90"
-        },
-        {
-            "id": "0ec02a50-ebc5-4a69-8083-b80d95af9857",
+            "id": "cefcf140-aaa5-4b23-b9b9-22af0d59fec3",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "e84dcb8d-e578-4642-a35e-bebd02906c90"
+            "m_owner": "deb29d9f-c360-4443-b645-f8d0f26e3daa"
+        },
+        {
+            "id": "12ff4aac-bcfe-42ef-a79f-c8a2a47a80ed",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "deb29d9f-c360-4443-b645-f8d0f26e3daa"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "dface1a7-b4d5-40da-88f4-a72cd91f0228",
-    "persistent": true,
+    "parentObjectId": "00000000-0000-0000-0000-000000000000",
+    "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
     "physicsFriction": 0.2,
@@ -43,6 +43,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "a526c84c-5ab7-4620-a8f1-6ab522aa7d84",
+    "spriteId": "387dd101-b978-4622-b335-8d67b939683e",
     "visible": true
 }
