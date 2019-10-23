@@ -21,7 +21,7 @@ if (alarm[1] == 0)
 }
 
 //Kill slime
-if (currentHearts == 0)
+if (currentHearts <= 0)
 {
 	loot(drop_rates_ennemy_keys, drop_rates_ennemy_values, array_size, thresholds, x, y);
 	instance_destroy();
