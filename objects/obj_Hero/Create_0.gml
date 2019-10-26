@@ -3,6 +3,7 @@ event_inherited();
 
 //Random Seed
 randomize();
+window_set_size(2 * 512, 2 * 384);
 
 //spawn
 spawning_room = room_0_0;
