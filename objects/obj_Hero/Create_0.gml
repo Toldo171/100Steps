@@ -46,3 +46,4 @@ keys = 0;
 attack = 10;
 crit_rate = 1;
 crit_damage = 1.5;
+spd_projectile = 5;

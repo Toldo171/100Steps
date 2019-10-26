@@ -22,14 +22,14 @@ draw_sprite(spr_Key, 0, x_key, y_key);
 draw_text(x_key_text, y_key_text, string(obj_Hero.keys));
 
 //Runes
-draw_sprite(spr_Rune_Spd_C, 0, x_rune_spd, y_rune_spd);
-draw_text(x_rune_spd_text, y_rune_spd_text, string(obj_ProjectileHero.speed));
-draw_sprite(spr_Rune_CR_C, 0, x_rune_CR, y_rune_CR);
+draw_sprite(spr_Rune_Spd, 0, x_rune_spd, y_rune_spd);
+draw_text(x_rune_spd_text, y_rune_spd_text, string(obj_Hero.spd_projectile));
+draw_sprite(spr_Rune_CR, 0, x_rune_CR, y_rune_CR);
 draw_text(x_rune_CR_text, y_rune_CR_text, string(obj_Hero.crit_rate));
-draw_sprite(spr_Rune_CD_C, 0, x_rune_CD, y_rune_CD);
+draw_sprite(spr_Rune_CD, 0, x_rune_CD, y_rune_CD);
 draw_text(x_rune_CD_text, y_rune_CD_text, string(obj_Hero.crit_damage));
-draw_sprite(spr_Rune_Atk_C, 0, x_rune_Atk, y_rune_Atk);
-draw_text(x_rune_Atk_text, y_rune_Atk_text, string(obj_Hero.crit_rate));
+draw_sprite(spr_Rune_Atk, 0, x_rune_Atk, y_rune_Atk);
+draw_text(x_rune_Atk_text, y_rune_Atk_text, string(obj_Hero.attack));
 
 //Max Hearts
 var i
