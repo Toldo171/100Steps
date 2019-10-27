@@ -38,7 +38,7 @@ hasGreenPixie = false;
 
 //Stats Hero
 remaining_steps = 50;
-remaining_lives = 10;
+remaining_lives = 3;
 currentHearts = 3;
 maxHearts = 3;
 keys = 0;

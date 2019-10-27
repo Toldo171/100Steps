@@ -31,21 +31,21 @@ y_step_text = y_step_bar + 8; //A positionner en fonction de y_step_bar
 x_rune_spd = 64;
 y_rune_spd = 160;
 x_rune_spd_text = x_rune_spd + 36;
-y_rune_spd_text = y_rune_spd + 8;
+y_rune_spd_text = y_rune_spd - 4;
 
 x_rune_CR = 64;
 y_rune_CR = 192;
 x_rune_CR_text = x_rune_CR + 36;
-y_rune_CR_text = y_rune_CR + 8;
+y_rune_CR_text = y_rune_CR;
 
 x_rune_CD = 32;
 y_rune_CD = 192;
 x_rune_CD_text = x_rune_CD - 28;
-y_rune_CD_text = y_rune_CD + 8;
+y_rune_CD_text = y_rune_CD;
 
 x_rune_Atk = 32;
 y_rune_Atk = 160;
 x_rune_Atk_text = x_rune_Atk - 28;
-y_rune_Atk_text = y_rune_Atk + 8;
+y_rune_Atk_text = y_rune_Atk - 4;
 
 draw_steps = 0;

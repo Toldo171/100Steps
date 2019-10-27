@@ -1,6 +1,6 @@
 with (other)
 {
-	currentHearts -= obj_Slime.attack;
+	currentHearts -= attack;
 }
 
 instance_destroy();
