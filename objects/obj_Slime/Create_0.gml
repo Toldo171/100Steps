@@ -19,9 +19,13 @@ idle_sprite[directions.down] = spr_Slime_Front;
 
 //Alarms for moving and shooting AI
 alarm[0] = -1;
-alarm[1] = -1;
-move_delay = 90;
-shoot_delay = 60;
+action_delay = 15;
+action_count = 0;
+
+//Random initial direction, and clockwise or anticlockwise turn
+degree_direction = choose(0, 90, 180, 270);
+dir = global.dir_projectile[? degree_direction];
+turn = choose (-1, 1);
 
 //Possible loots and droprates
 drop_rates_ennemy_keys = [obj_Heart, obj_Steps, obj_Life, obj_Key]
