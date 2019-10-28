@@ -23,15 +23,16 @@ action_delay = 15;
 action_count = 0;
 
 //Random initial direction, and clockwise or anticlockwise turn
-degree_direction = choose(0, 90, 180, 270);
-dir = global.dir_projectile[? degree_direction];
-turn = choose (-1, 1);
+dir_indice = irandom_range(0,3);
+dir_array = [directions.right, directions.up, directions.left, directions.down];
+dir = dir_array[dir_indice];
+turn = choose(-1, 1);
 
 //Possible loots and droprates
-drop_rates_ennemy_keys = [obj_Heart, obj_Steps, obj_Life, obj_Key]
-drop_rates_ennemy_values = [0.1, 0.1, 0.05, 0.05]
+drop_rates_ennemy_keys = [obj_Heart, obj_Steps, obj_Key]
+drop_rates_ennemy_values = [0.1, 0.1, 0.05]
 array_size = array_length_1d(drop_rates_ennemy_values);
-thresholds = [1, 0, 0, 0, 0]
+thresholds = [1, 0, 0, 0]
 
 //Stats
 attack = 1;

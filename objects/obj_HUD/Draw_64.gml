@@ -13,10 +13,6 @@ draw_set_color(c_yellow);
 //draw_rectangle(x_topStats + 30, y_topStats - 12, x_topStats + 30 + (99 * draw_steps / obj_Hero.max_steps), y_topStats-12+22, false);
 draw_set_color(c_white);
 
-//Remaining lives
-draw_sprite(spr_Hero_Front, 0, x_life, y_life);
-draw_text(x_life_text, y_life_text, string(obj_Hero.remaining_lives));
-
 //Keys
 draw_sprite(spr_Key, 0, x_key, y_key);
 draw_text(x_key_text, y_key_text, string(obj_Hero.keys));

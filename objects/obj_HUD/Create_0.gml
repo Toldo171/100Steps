@@ -13,11 +13,6 @@ y_yellow_pixie = 64;
 x_green_pixie = 96;
 y_green_pixie = 64;
 
-x_life = 0;
-y_life =96;
-x_life_text = x_life + 36;
-y_life_text = y_life + 8;
-
 x_key = 64;
 y_key = 96;
 x_key_text = x_key + 36;

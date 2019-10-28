@@ -119,14 +119,6 @@
             }
         },
         {
-            "Key": "1c4510bc-6d00-4b09-8cf7-c5eb8e67f74c",
-            "Value": {
-                "id": "e976cebe-e98e-4b01-82cc-44446dd12010",
-                "resourcePath": "objects\\obj_Life\\obj_Life.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "1d266c94-f1ee-44fe-b6e4-df4676f8f1c8",
             "Value": {
                 "id": "8aa51606-4cc3-4e6a-bd8a-c58d8011f261",
@@ -148,14 +140,6 @@
                 "id": "82f21ad5-13be-486f-b45b-17b017477b78",
                 "resourcePath": "rooms\\room_1_m1\\room_1_m1.yy",
                 "resourceType": "GMRoom"
-            }
-        },
-        {
-            "Key": "1fb14814-6b9a-4225-8cfa-b7f077dd7734",
-            "Value": {
-                "id": "0df92a69-756d-49ba-86fe-ceb63fa757df",
-                "resourcePath": "sprites\\spr_Fog\\spr_Fog.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
@@ -292,14 +276,6 @@
                 "id": "f8a43a98-81ac-4a83-b761-525fa3cfba78",
                 "resourcePath": "views\\4d67c5e9-c2c7-4606-adbc-8704b1eefc0b.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "4daa92b6-79d6-4b66-8eaa-2a4f63480151",
-            "Value": {
-                "id": "df9e3a85-546c-4aef-98b6-021e2b40a4a2",
-                "resourcePath": "objects\\obj_Fog\\obj_Fog.yy",
-                "resourceType": "GMObject"
             }
         },
         {
@@ -623,14 +599,6 @@
             }
         },
         {
-            "Key": "be8175a6-b732-4b6d-9710-99e1bed0c669",
-            "Value": {
-                "id": "28dff7e4-e6e5-4523-bcd5-eb64be7d3325",
-                "resourcePath": "sprites\\spr_Life\\spr_Life.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "c2ffc96f-4c14-4593-9099-9732e9116305",
             "Value": {
                 "id": "b3165520-dab2-49af-8e05-c33273a93710",
@@ -754,7 +722,7 @@
             "Key": "e1906ad3-657b-4a83-834a-856a25e418e7",
             "Value": {
                 "id": "f884f539-4407-4665-80ea-d80bac35ee7f",
-                "resourcePath": "scripts\\moveSlimeAI\\moveSlimeAI.yy",
+                "resourcePath": "scripts\\activateSlimeAI\\activateSlimeAI.yy",
                 "resourceType": "GMScript"
             }
         },

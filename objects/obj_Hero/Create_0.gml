@@ -27,9 +27,6 @@ idle_sprite[directions.down] = spr_Hero_Front;
 //Death sprite
 death_sprite = spr_Hero_Death;
 
-//Hero field_of_view
-field_of_view = 4
-
 //Objects assigned to the hero
 hasBluePixie = false;
 hasRedPixie = false;
@@ -37,8 +34,7 @@ hasYellowPixie = false;
 hasGreenPixie = false;
 
 //Stats Hero
-remaining_steps = 50;
-remaining_lives = 3;
+remaining_steps = 150;
 currentHearts = 3;
 maxHearts = 3;
 keys = 0;
