@@ -1,56 +1,26 @@
 //------------------------------------------------------------
 //Handles character movement
 //------------------------------------------------------------
-//argument0 = Ennemy
+//argument0 = NA
 
 if (alarm[0] == 0)
 {
-	var x_from_hero = argument0.x_pos - obj_Hero.x_pos;
-	var y_from_hero = argument0.y_pos - obj_Hero.y_pos;
-	var diff_xy = abs(x_from_hero) - abs(y_from_hero);
-
-	if (diff_xy >= 0)
+	if (action_count == 0 or action_count == 1)
 	{
-		if (y_from_hero > 0 and place_free(argument0.x, argument0.y - tile_height))
-		{
-			moveCharacter(directions.up, self);
-		}
-		else if (y_from_hero < 0 and place_free(argument0.x, argument0.y + tile_height))
-		{
-			moveCharacter(directions.down, self);
-		}
-		else if (y_from_hero = 0)
-		{
-			if (x_from_hero > 1 and place_free(argument0.x - tile_width, argument0.y))
-			{
-				moveCharacter(directions.left, self);
-			}
-			else if (x_from_hero < -1 and place_free(argument0.x + tile_width, argument0.y))
-			{
-				moveCharacter(directions.right, self);
-			}
-		}
+		moveCharacter(global.dir_projectile[? degree_direction], self);
+		degree_direction += turn * 90;
+		action_count += 1;
 	}
-	else if (diff_xy < 0)
+	else if (action_count == 2)
 	{
-		if (x_from_hero > 0 and place_free(argument0.x - tile_width, argument0.y))
-		{
-			moveCharacter(directions.left, self);
-		}
-		else if (x_from_hero < 0 and place_free(argument0.x + tile_width, argument0.y))
-		{
-			moveCharacter(directions.right, self);
-		}
-		else if (x_from_hero = 0)
-		{
-			if (y_from_hero > 1 and place_free(argument0.x, argument0.y - tile_height))
-			{
-				moveCharacter(directions.up, self);
-			}
-			else if (y_from_hero < -1 and place_free(argument0.x, argument0.y + tile_height))
-			{
-				moveCharacter(directions.down, self);
-			}
-		}
+		shoot(directions.down, self, obj_Projectile_Ennemy);
+		shoot(directions.up, self, obj_Projectile_Ennemy);
+		shoot(directions.left, self, obj_Projectile_Ennemy);
+		shoot(directions.right, self, obj_Projectile_Ennemy);
+		action_count += 1;
+	}
+	else if (action_count == 3)
+	{
+		action_count = 0;
 	}
 }
