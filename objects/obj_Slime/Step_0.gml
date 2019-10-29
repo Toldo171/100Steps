@@ -13,6 +13,6 @@ animateCharacter();
 //Kill slime
 if (currentHearts <= 0)
 {
-	loot(drop_rates_ennemy_keys, drop_rates_ennemy_values, array_size, thresholds, x, y);
+	loot(drop_rates_ennemy_keys, drop_rates_ennemy_values, array_size, thresholds, x, y, False);
 	instance_destroy();
 }
