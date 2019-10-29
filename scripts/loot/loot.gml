@@ -7,6 +7,7 @@
 //argument3 = thresholds
 //argument4 = x
 //argument5 = y
+//argument6 = is_spawn_reward
 
 maxRand = 1000;
 var rand = irandom_range(1, maxRand);	
@@ -19,6 +20,10 @@ for (i = 0; i < argument2; i++)
 	//Generating loot
 	if (maxRand * argument3[i+1] < rand and rand <= maxRand * argument3[i])
 	{
-		instance_create_layer(argument4, argument5, "Objects", argument0[i]);
+		var inst = instance_create_layer(argument4, argument5, "Objects", argument0[i]);
+		with (inst)
+		{
+			is_spawned_reward = argument6;
+		}
 	}
 }
