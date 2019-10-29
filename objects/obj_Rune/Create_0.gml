@@ -1,3 +1,5 @@
+event_inherited();
+
 //Relates the sprite according to the slot
 rune_slot = ds_map_create();
 rune_slot[? "speed"] = spr_Rune_Spd;

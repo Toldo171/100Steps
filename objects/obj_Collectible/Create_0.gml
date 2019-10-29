@@ -1,0 +1,1 @@
+is_spawn_reward = false;

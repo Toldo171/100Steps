@@ -5,9 +5,6 @@ event_inherited();
 randomize();
 window_set_size(2 * 512, 2 * 384);
 
-//spawn
-spawning_room = room_0_0;
-
 //Order in which the frames has to be displayed during the animation
 frames = [2, 1, 0, 0, 1, 2, 3, 4];
 walk_anim_frames = 8;

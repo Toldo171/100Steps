@@ -9,7 +9,7 @@ if (!(layer_has_instance("Ennemies", obj_Slime)) and hasSpawned == false)
 		x1_reward = x_grid_hero - 3 * tile_width;
 		y1_reward = y_grid_hero;
 	}
-	else if (y_grid_hero >= 4 * tile_height;
+	else if (y_grid_hero >= 4 * tile_height)
 	{
 		x1_reward = x_grid_hero;
 		y1_reward = y_grid_hero - 3 * tile_height;
@@ -25,7 +25,7 @@ if (!(layer_has_instance("Ennemies", obj_Slime)) and hasSpawned == false)
 		x2_reward = x_grid_hero + 3 * tile_width;
 		y2_reward = y_grid_hero;
 	}
-	else if (y_grid_hero >= 4 * tile_height;
+	else if (y_grid_hero >= 4 * tile_height)
 	{
 		x2_reward = x_grid_hero;
 		y2_reward = y_grid_hero - 3 * tile_height;
@@ -36,7 +36,7 @@ if (!(layer_has_instance("Ennemies", obj_Slime)) and hasSpawned == false)
 		y2_reward = y_grid_hero + 3 * tile_height;
 	}
 	
-	loot(drop_rates_runes_room_keys, drop_rates_runes_room_values, array_size_runes, thresholds_runes, x1_reward, y1_reward, True);
-	loot(drop_rates_steps_room_keys, drop_rates_steps_room_values, array_size_steps, thresholds_steps, x2_reward, y2_reward, True);
+	loot(drop_rates_runes_room_keys, drop_rates_runes_room_values, array_size_runes, thresholds_runes, x1_reward, y1_reward, true);
+	loot(drop_rates_steps_room_keys, drop_rates_steps_room_values, array_size_steps, thresholds_steps, x2_reward, y2_reward, true);
 	hasSpawned = true;
 }

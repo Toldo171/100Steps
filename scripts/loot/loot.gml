@@ -23,7 +23,7 @@ for (i = 0; i < argument2; i++)
 		var inst = instance_create_layer(argument4, argument5, "Objects", argument0[i]);
 		with (inst)
 		{
-			is_spawned_reward = argument6;
+			is_spawn_reward = argument6;
 		}
 	}
 }
