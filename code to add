@@ -14,3 +14,16 @@ is_spawn_reward = False;
 //obj_Collectible Step
 //------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+if (x == obj_Hero.x and y == obj_Hero.y)
+{
+	if (is_spawn_reward = True)
+	{
+		with(obj_Collectible)
+		{
+			if (is_spawn_reward = True and x != obj_Hero.x and y != obj_Hero.y)
+			{
+				instance_destroy();
+			}
+		}
+	}
+}
