@@ -31,6 +31,22 @@
     },
     "resources": [
         {
+            "Key": "04aee7d6-20fa-4b9d-90af-16a894d5a866",
+            "Value": {
+                "id": "36ae2dd4-6f72-4689-a15f-b478f6fbdfc7",
+                "resourcePath": "rooms\\room_Game_Over\\room_Game_Over.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "08ef8f81-76a3-4cc8-87f7-69453e14c3d8",
+            "Value": {
+                "id": "47a618aa-af96-4743-aba8-55fbdb4262d3",
+                "resourcePath": "sprites\\spr_Game_Over\\spr_Game_Over.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "097bf9df-b235-4bf9-a9de-096ba823efba",
             "Value": {
                 "id": "7b9d4f4c-95d3-4eb1-b71a-af2c69e5b427",
@@ -535,6 +551,14 @@
             }
         },
         {
+            "Key": "a6fd11eb-b926-47ad-9ea2-dac62faf33e8",
+            "Value": {
+                "id": "b7ca6953-f975-4508-95e9-0cda924f34c9",
+                "resourcePath": "sprites\\spr_Step_Bar_Filling\\spr_Step_Bar_Filling.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "a8175155-ae56-4f4d-a7db-92e3110066e8",
             "Value": {
                 "id": "5da5fcee-8bd1-4c1a-a80b-9b4206eaa191",
@@ -871,9 +895,9 @@
         "e1906ad3-657b-4a83-834a-856a25e418e7",
         "345e2916-a512-4c7b-bf7f-986236f41f47",
         "a3098406-a2c2-47e3-adf4-e9eecf9c7819",
+        "f032841a-cf95-4f5e-bc44-da93df3dd334",
         "f17f30af-c3a3-4007-97ea-617370ba9b9b",
-        "5bfd61fe-539b-4868-b631-424c8e4f70e2",
-        "f032841a-cf95-4f5e-bc44-da93df3dd334"
+        "5bfd61fe-539b-4868-b631-424c8e4f70e2"
     ],
     "tutorial": ""
 }

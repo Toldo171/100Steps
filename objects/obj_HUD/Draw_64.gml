@@ -6,6 +6,7 @@ draw_set_valign(fa_top);
 
 //Remaining steps bar
 draw_sprite(spr_Step_Bar, 0, x_step_bar, y_step_bar);
+draw_sprite(spr_Step_Bar_Filling, 0, x_step_bar_filling, y_step_bar_fililng);
 draw_text(x_step_text, y_step_text, string(obj_Hero.remaining_steps));
 //Gestion de la barre d'objectif
 draw_steps = lerp(draw_steps, obj_Hero.remaining_steps, 0.25);

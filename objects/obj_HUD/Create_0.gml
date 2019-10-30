@@ -20,8 +20,10 @@ y_key_text = y_key + 8;
 
 x_step_bar = 0;
 y_step_bar = 128;
-x_step_text = x_step_bar + 70; //A positionner en fonction de x_step_bar
-y_step_text = y_step_bar + 8; //A positionner en fonction de y_step_bar
+x_step_bar_filling = 0;
+y_step_bar_fililng = 128;
+x_step_text = x_step_bar + 102; //A positionner en fonction de x_step_bar
+y_step_text = y_step_bar + 4; //A positionner en fonction de y_step_bar
 
 x_rune_spd = 64;
 y_rune_spd = 160;
