@@ -2,6 +2,7 @@ x1_reward = 0;
 y1_reward = 0;
 x2_reward = 0;
 y2_reward = 0;
+dist_from_reward = 3 * tile_width;
 hasSpawned = false;
 
 //Possible loots and droprates
