@@ -1,3 +1,4 @@
+//If we pick a room reward, make sure the other room reward is destroyed
 if (x == obj_Hero.x and y == obj_Hero.y)
 {
 	if (is_spawn_reward = true)
