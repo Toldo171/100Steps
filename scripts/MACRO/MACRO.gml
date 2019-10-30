@@ -4,6 +4,7 @@ gml_pragma("global", "MACRO()");
 //Les macros sont des variables globales qui ne peuvent jamais Ãªtre modifiÃ©es, et qui sont accessibles depuis n'importe quelle piÃ¨ce
 #macro tile_width 32
 #macro tile_height 32
+#macro max_possible_hearts 8
 
 enum states
 {
