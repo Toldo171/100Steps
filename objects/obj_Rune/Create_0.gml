@@ -59,3 +59,22 @@ for (i = 0; i < rarity_array_size; i++)
 rune_type = slot + "_" + rarity;
 sprite_index = rune_slot[? slot];
 image_index = rune_rarity[? rarity];
+
+//Ranges type runes
+min_boost_common = 1;
+max_boost_common = 3;
+
+min_boost_rare = 2;
+max_boost_rare = 5;
+
+min_boost_epic = 4;
+max_boost_epic = 7;
+
+min_boost_legendary = 6;
+max_boost_legendary = 10;
+
+//stats multiplicator
+spd_mul = 0.1;
+CR_mul = 1;
+CD_mul = 0.01;
+atk_mul = 0.1;
