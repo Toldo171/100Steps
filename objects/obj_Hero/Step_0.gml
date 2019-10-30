@@ -21,19 +21,19 @@ if (obj_Hero.state != states.dead)
 {
 	if (keyboard_check_pressed(ord("Q")))
 	{
-		shoot(directions.left, obj_Hero, obj_Projectile_Hero);
+		shoot(directions.left, obj_Hero, obj_Projectile_Hero, x, y);
 	}
 	if (keyboard_check_pressed(ord("D")))
 	{
-		shoot(directions.right, obj_Hero, obj_Projectile_Hero);
+		shoot(directions.right, obj_Hero, obj_Projectile_Hero, x, y);
 	}
 	if (keyboard_check_pressed(ord("Z")))
 	{
-		shoot(directions.up, obj_Hero, obj_Projectile_Hero);
+		shoot(directions.up, obj_Hero, obj_Projectile_Hero, x, y);
 	}
 	if (keyboard_check_pressed(ord("S")))
 	{
-		shoot(directions.down, obj_Hero, obj_Projectile_Hero);
+		shoot(directions.down, obj_Hero, obj_Projectile_Hero, x, y);
 	}
 }
 
