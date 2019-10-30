@@ -3,6 +3,7 @@
 //------------------------------------------------------------
 //argument0 = direction
 //argument1 = character
+//argument2 = step_length
 
 var dir_temp = argument0; //can be left, right, up, down
 var components = global.components[dir_temp];
@@ -17,7 +18,7 @@ if (state == states.idle)
 	sprite_index = idle_sprite[dir];
 	
 	//Collision Handler
-	if !(tilemap_get(tile_map, x_pos + dx, y_pos + dy))
+	if !(tilemap_get(tile_map, x_pos + argument2 * dx, y_pos + argument2 * dy))
 	{
 		//Stop idle animation
 		image_speed = 0;
