@@ -21,6 +21,9 @@ death_anim_length = 1;
 walk_anim_time = 0;
 death_anim_time = 0;
 
+//Step length
+step_length = 1;
+
 //Animation speed
 image_speed = 0.5;
 
