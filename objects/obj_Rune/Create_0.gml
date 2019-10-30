@@ -73,7 +73,7 @@ max_boost_epic = 7;
 min_boost_legendary = 6;
 max_boost_legendary = 10;
 
-//stats multiplicator
+//Stats multiplicator
 spd_mul = 0.1;
 CR_mul = 1;
 CD_mul = 0.01;
