@@ -7,7 +7,7 @@ if (alarm[0] == 0)
 {
 	if (action_count == 0 or action_count == 1)
 	{
-		moveCharacter(dir, self);
+		moveCharacter(dir, self, step_length);
 		dir_indice += turn;
 		if (dir_indice == -1) {dir_indice = 3;}
 		if (dir_indice == 4) {dir_indice = 0;}
