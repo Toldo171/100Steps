@@ -16,10 +16,10 @@ if (alarm[0] == 0)
 	}
 	else if (action_count == 2)
 	{
-		shoot(directions.down, self, obj_Projectile_Ennemy);
-		shoot(directions.up, self, obj_Projectile_Ennemy);
-		shoot(directions.left, self, obj_Projectile_Ennemy);
-		shoot(directions.right, self, obj_Projectile_Ennemy);
+		shoot(directions.down, self, obj_Projectile_Ennemy, x, y);
+		shoot(directions.up, self, obj_Projectile_Ennemy, x, y);
+		shoot(directions.left, self, obj_Projectile_Ennemy, x, y);
+		shoot(directions.right, self, obj_Projectile_Ennemy, x, y);
 		action_count += 1;
 	}
 	else if (action_count == 3)
