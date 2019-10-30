@@ -30,7 +30,7 @@ draw_text(x_rune_Atk_text, y_rune_Atk_text, "Atk \n" + string(obj_Hero.attack));
 
 //Max Hearts
 var i
-for (i = 0; i < 8; i += 1)
+for (i = 0; i < max_possible_hearts; i += 1)
 {
 	if (obj_Hero.maxHearts >= i+1)
 	{
@@ -47,7 +47,7 @@ for (i = 0; i < 8; i += 1)
 
 //Hearts
 var j;
-for (j = 0; j < 8; j += 1)
+for (j = 0; j < max_possible_hearts; j += 1)
 {
 	if (obj_Hero.currentHearts >= j+1)
 	{
