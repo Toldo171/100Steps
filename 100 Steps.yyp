@@ -319,6 +319,14 @@
             }
         },
         {
+            "Key": "5ee5a7e8-37c8-4d9b-a7a3-7e2b8fba53aa",
+            "Value": {
+                "id": "5fe221d0-1401-475d-8a95-f982cb78cc9e",
+                "resourcePath": "scripts\\checkDeadBoss\\checkDeadBoss.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "605117fd-e3f9-43ea-aa73-43a0c46bed92",
             "Value": {
                 "id": "83028e78-6b89-4199-bb6c-207a727da741",
@@ -348,6 +356,14 @@
                 "id": "be319cdc-709a-4dc8-9979-9b5008d6e299",
                 "resourcePath": "views\\65b07ba0-49ed-4eab-99e4-d27e72a35b38.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "6d462e63-c051-4f27-bbcf-03a7b6ea6262",
+            "Value": {
+                "id": "17aa89ac-b5cf-4622-a9d5-0574420e7e7f",
+                "resourcePath": "scripts\\checkDeadEnnemy\\checkDeadEnnemy.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -615,6 +631,14 @@
             }
         },
         {
+            "Key": "b0e77334-eb8e-463a-bbce-22b01afeaaa3",
+            "Value": {
+                "id": "b87b3036-6133-427c-857e-cf6928e2d711",
+                "resourcePath": "scripts\\spawnReward\\spawnReward.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "b2f188a3-33b1-4c71-8278-7c098994a61f",
             "Value": {
                 "id": "7ce60512-e335-47ec-a738-6e6d4d48cbc5",
@@ -684,6 +708,14 @@
                 "id": "845d9072-f7af-4e1e-8379-edf888629f76",
                 "resourcePath": "options\\windows\\options_windows.yy",
                 "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "d146f79c-1784-4f6c-8aa7-fe3348575e2f",
+            "Value": {
+                "id": "a1f71dbb-d592-4163-968a-b25a01e2f572",
+                "resourcePath": "objects\\obj_Ennemy\\obj_Ennemy.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -863,6 +895,14 @@
             }
         },
         {
+            "Key": "f919a1c1-330b-496f-899a-872cc1fade11",
+            "Value": {
+                "id": "7a16e733-6c21-434c-900b-4b242498f9d3",
+                "resourcePath": "scripts\\increaseStats\\increaseStats.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "f923a4e4-5490-4b5d-b705-c7e7d11f05ec",
             "Value": {
                 "id": "fa7929d8-fa57-4cf3-b106-d799d1033e86",
@@ -885,6 +925,14 @@
                 "resourcePath": "views\\fa6f4687-a158-43ad-95b5-d40f2e3365c1.yy",
                 "resourceType": "GMFolder"
             }
+        },
+        {
+            "Key": "fce538c4-8147-497b-a512-b3451596fc88",
+            "Value": {
+                "id": "d1da84e9-a0b1-4ff8-92a9-03f7b1f1a311",
+                "resourcePath": "scripts\\activateSlimeBossAI\\activateSlimeBossAI.yy",
+                "resourceType": "GMScript"
+            }
         }
     ],
     "script_order": [
@@ -892,10 +940,15 @@
         "cab6f2e5-1cb0-4fe8-9904-334c556b8155",
         "dd2bd299-9e52-42cd-9f09-14b5967686d1",
         "7c29f66c-ee9b-4943-bd88-feba62db06bf",
+        "6d462e63-c051-4f27-bbcf-03a7b6ea6262",
+        "5ee5a7e8-37c8-4d9b-a7a3-7e2b8fba53aa",
         "e1906ad3-657b-4a83-834a-856a25e418e7",
+        "fce538c4-8147-497b-a512-b3451596fc88",
         "345e2916-a512-4c7b-bf7f-986236f41f47",
         "a3098406-a2c2-47e3-adf4-e9eecf9c7819",
         "f032841a-cf95-4f5e-bc44-da93df3dd334",
+        "f919a1c1-330b-496f-899a-872cc1fade11",
+        "b0e77334-eb8e-463a-bbce-22b01afeaaa3",
         "f17f30af-c3a3-4007-97ea-617370ba9b9b",
         "5bfd61fe-539b-4868-b631-424c8e4f70e2"
     ],

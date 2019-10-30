@@ -30,6 +30,7 @@ dir_indice = irandom_range(0,3);
 dir_array = [directions.right, directions.up, directions.left, directions.down];
 dir = dir_array[dir_indice];
 turn = choose(-1, 1);
+rerandom_count = 0;
 
 //Possible loots and droprates
 drop_rates_ennemy_keys = [obj_Rune, obj_Full_Heart, obj_Key]
