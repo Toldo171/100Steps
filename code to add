@@ -87,3 +87,100 @@ if (currentHearts <= 0)
 	loot(drop_rates_ennemy_keys, drop_rates_ennemy_values, array_size, thresholds, x_grid_ennemy + tile_width, y_grid_ennemy + tile_height, true);
 	instance_destroy();
 }
+
+//------------------------------------------------------------
+//Increase stats according to rune (increaseStats)
+//------------------------------------------------------------
+//argument0 = Hero
+
+if (slot == "speed")
+	{
+		if (rune_type == "speed_common")
+		{
+			var rand = irandom_range(1,3);
+		}
+		else if (rune_type == "speed_rare")
+		{
+			var rand = irandom_range(2,5);
+		}	
+		else if (rune_type == "speed_epic")
+		{
+			var rand = irandom_range(4,7);
+		}	
+		else if (rune_type == "speed_legendary")
+		{
+			var rand = irandom_range(6,10);
+		} 
+		
+	argument0.spd_projectile += rand / 10;
+	}
+	
+	if (slot == "critRate")
+	{
+		if (rune_type == "critRate_common")
+		{
+			var rand = irandom_range(1,3);
+		}
+		else if (rune_type == "critRate_rare")
+		{
+			var rand = irandom_range(2,5);
+		}	
+		else if (rune_type == "critRate_epic")
+		{
+			var rand = irandom_range(4,7);
+		}	
+		else if (rune_type == "critRate_legendary")
+		{
+			var rand = irandom_range(6,10);
+		} 
+	
+	//Increase crit rate by x%
+	argument0.crit_rate += rand;
+	}
+	
+	if (slot == "critDamage")
+	{
+		if (rune_type == "critDamage_common")
+		{
+			var rand = irandom_range(1,3);
+		}
+		else if (rune_type == "critDamage_rare")
+		{
+			var rand = irandom_range(2,5);
+		}	
+		else if (rune_type == "critDamage_epic")
+		{
+			var rand = irandom_range(4,7);
+		}	
+		else if (rune_type == "critDamage_legendary")
+		{
+			var rand = irandom_range(6,10);
+		} 
+	//Increase crit damage by x%
+	argument0.crit_damage += rand / 100;
+	}
+	
+	if (slot == "attack")
+	{
+		if (rune_type == "attack_common")
+		{
+			var rand = irandom_range(1,3);
+		}
+		else if (rune_type == "attack_rare")
+		{
+			var rand = irandom_range(2,5);
+		}	
+		else if (rune_type == "attack_epic")
+		{
+			var rand = irandom_range(4,7);
+		}	
+		else if (rune_type == "attack_legendary")
+		{
+			var rand = irandom_range(6,10);
+		} 
+	
+	//Increase attack by x% of base attack	
+	argument0.attack += rand / 10;
+	}
+	
+instance_destroy();
