@@ -1,6 +1,9 @@
 //Inherit from Character object
 event_inherited();
 
+//Step length
+step_length = 2;
+
 //Order in which the frames has to be displayed during the animation
 frames = [2, 1, 0, 0, 1, 2, 3, 4];
 walk_anim_frames = 8;
@@ -29,11 +32,15 @@ dir = dir_array[dir_indice];
 turn = choose(-1, 1);
 
 //Possible loots and droprates
-drop_rates_ennemy_keys = [obj_Heart, obj_Steps, obj_Key]
-drop_rates_ennemy_values = [0.05, 0.05, 0.01]
+drop_rates_ennemy_keys = [obj_Rune, obj_Full_Heart, obj_Key]
+drop_rates_ennemy_values = [0.34, 0.33, 0.33]
 array_size = array_length_1d(drop_rates_ennemy_values);
 thresholds = [1, 0, 0, 0]
 
 //Stats
 attack = 1;
-currentHearts = 10;
+currentHearts = 100;
+
+//He's big
+image_xscale = 4;
+image_yscale = 4;
