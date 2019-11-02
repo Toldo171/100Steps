@@ -16,6 +16,10 @@ if (alarm[0] == 0)
 	}
 	else if (action_count == 2)
 	{
+		//Shooting animation
+		sprite_index = spr_Slime_Shoot;
+		image_speed = 1;
+		//Shooting in every direction
 		shoot(directions.down, self, obj_Projectile_Ennemy, x, y);
 		shoot(directions.up, self, obj_Projectile_Ennemy, x, y);
 		shoot(directions.left, self, obj_Projectile_Ennemy, x, y);

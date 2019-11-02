@@ -11,7 +11,8 @@
         "7cb546ab-1be0-4cde-8113-80d64cf26481",
         "93c7ec32-efc4-4682-9efa-7536a2596514",
         "d4f71b2f-9689-4c47-b60d-fcca3fb33b42",
-        "1989cf6e-a01d-46ed-af73-eeee77d72d16"
+        "1989cf6e-a01d-46ed-af73-eeee77d72d16",
+        "9559fab8-d1d7-4912-9cda-2e8a12bc3230"
     ],
     "filterType": "GMSprite",
     "folderName": "Slime",

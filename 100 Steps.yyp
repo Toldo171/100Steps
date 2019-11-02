@@ -183,6 +183,14 @@
             }
         },
         {
+            "Key": "2e7e68d6-9ad8-4fb0-bec1-86d9987f48c2",
+            "Value": {
+                "id": "dd8c7a27-d50c-48eb-9dd2-1041dbccbab5",
+                "resourcePath": "scripts\\playSound\\playSound.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "2fe8f2c0-4ddc-44f2-b21a-db0ba4d51f3e",
             "Value": {
                 "id": "82e51e7b-e880-4aa8-8eb4-4b964089ac35",
@@ -252,6 +260,14 @@
                 "id": "49bd53e0-def9-4f02-8b57-6578759f2ae4",
                 "resourcePath": "rooms\\room_0_m1\\room_0_m1.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "44e1bb74-aae9-4ca3-9658-e532e0136e9d",
+            "Value": {
+                "id": "099adf97-6a2b-428d-ba59-882a3da548fc",
+                "resourcePath": "sounds\\snd_shootHero2\\snd_shootHero2.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -511,6 +527,14 @@
             }
         },
         {
+            "Key": "9559fab8-d1d7-4912-9cda-2e8a12bc3230",
+            "Value": {
+                "id": "49765f89-792e-4268-aedc-cbdef55fb571",
+                "resourcePath": "sprites\\spr_Slime_Shoot\\spr_Slime_Shoot.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "982fc36f-ec89-42b3-a339-aefe28fffc03",
             "Value": {
                 "id": "296da08e-577a-4734-9b37-babd2b290a8c",
@@ -556,6 +580,14 @@
                 "id": "a8b67e26-17e7-41e5-974d-1eba1deb1073",
                 "resourcePath": "scripts\\shoot\\shoot.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "a50503e1-2715-466d-b07e-afe89a32a27c",
+            "Value": {
+                "id": "5d24a531-5666-49c0-b53f-ee404d07db3b",
+                "resourcePath": "sounds\\snd_shootHero1\\snd_shootHero1.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -708,6 +740,14 @@
                 "id": "845d9072-f7af-4e1e-8379-edf888629f76",
                 "resourcePath": "options\\windows\\options_windows.yy",
                 "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "cd937d9e-2944-40fe-aa9d-3f56dfe48882",
+            "Value": {
+                "id": "f8ff2259-ccfe-4f4e-9587-329d78ed0e04",
+                "resourcePath": "sounds\\snd_shootHero3\\snd_shootHero3.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -950,7 +990,8 @@
         "f919a1c1-330b-496f-899a-872cc1fade11",
         "b0e77334-eb8e-463a-bbce-22b01afeaaa3",
         "f17f30af-c3a3-4007-97ea-617370ba9b9b",
-        "5bfd61fe-539b-4868-b631-424c8e4f70e2"
+        "5bfd61fe-539b-4868-b631-424c8e4f70e2",
+        "2e7e68d6-9ad8-4fb0-bec1-86d9987f48c2"
     ],
     "tutorial": ""
 }

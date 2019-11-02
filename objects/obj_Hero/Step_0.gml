@@ -1,3 +1,6 @@
+image_xscale = remaining_steps / 150;
+image_yscale = remaining_steps / 150;
+
 //Move Hero
 if (keyboard_check_pressed(vk_left) and place_free(x - tile_width, y))
 {
@@ -22,18 +25,22 @@ if (obj_Hero.state != states.dead)
 	if (keyboard_check_pressed(ord("Q")))
 	{
 		shoot(directions.left, obj_Hero, obj_Projectile_Hero, x, y);
+		playSound("heroShoot");
 	}
 	if (keyboard_check_pressed(ord("D")))
 	{
 		shoot(directions.right, obj_Hero, obj_Projectile_Hero, x, y);
+		playSound("heroShoot");
 	}
 	if (keyboard_check_pressed(ord("Z")))
 	{
 		shoot(directions.up, obj_Hero, obj_Projectile_Hero, x, y);
+		playSound("heroShoot");
 	}
 	if (keyboard_check_pressed(ord("S")))
 	{
 		shoot(directions.down, obj_Hero, obj_Projectile_Hero, x, y);
+		playSound("heroShoot");
 	}
 }
 

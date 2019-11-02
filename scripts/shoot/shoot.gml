@@ -17,5 +17,8 @@ with (instance_create_layer(argument3, argument4, "Projectiles", argument2))
 	direction = global.dir_projectile[? argument0];
 }
 
-//Update the direction of the character
-sprite_index = argument1.idle_sprite[argument0];
+//Update the direction of the Hero
+if (argument1 == obj_Hero)
+{
+	sprite_index = argument1.idle_sprite[argument0];
+}
