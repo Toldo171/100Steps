@@ -13,4 +13,10 @@ with (other)
 	}
 }
 
+//Destroy bullet, play sound and Launch screenshake
 instance_destroy();
+playSound("hitEnnemy");
+with (obj_ScreenShake)
+{
+	alarm[0] = shake_length;
+}
