@@ -19,7 +19,7 @@ idle_sprite[directions.down] = spr_Slime_Front;
 
 //Alarms for moving and shooting AI
 alarm[0] = -1;
-action_delay = 15;
+action_delay = (game_get_speed(gamespeed_fps) / (music1_BPM / 60)) - 1;
 action_count = 0;
 
 //Random initial direction, and clockwise or anticlockwise turn
