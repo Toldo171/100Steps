@@ -263,6 +263,14 @@
             }
         },
         {
+            "Key": "37742081-d805-4803-b1d8-f50e00fad536",
+            "Value": {
+                "id": "9bcff13c-39e8-4d20-a322-9c30ced46da4",
+                "resourcePath": "sounds\\snd_music1\\snd_music1.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "37f606b1-c2d4-448a-9d82-679e116fff5b",
             "Value": {
                 "id": "145c1a72-28e3-4906-8536-80384c800ec0",
@@ -468,6 +476,14 @@
                 "id": "e08ba2e0-4954-48e1-9f39-646cdc4ad1f4",
                 "resourcePath": "sprites\\spr_Hero_Anim_Left\\spr_Hero_Anim_Left.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "7b337693-a873-4843-b74d-b8f8c3960c8b",
+            "Value": {
+                "id": "cb4fc2c8-7cf2-446e-a289-4cba8036cb96",
+                "resourcePath": "objects\\obj_Music\\obj_Music.yy",
+                "resourceType": "GMObject"
             }
         },
         {

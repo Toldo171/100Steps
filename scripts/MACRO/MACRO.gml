@@ -7,7 +7,7 @@ gml_pragma("global", "MACRO()");
 #macro max_possible_hearts 8
 
 //Crypteque COTN for testing
-#macro music1_BPM 130
+#macro music1_BPM 120
 
 enum states
 {
