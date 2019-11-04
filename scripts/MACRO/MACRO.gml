@@ -6,6 +6,9 @@ gml_pragma("global", "MACRO()");
 #macro tile_height 32
 #macro max_possible_hearts 8
 
+//Crypteque COTN for testing
+#macro music1_BPM 130
+
 enum states
 {
 	idle,
