@@ -3,3 +3,30 @@ https://webcache.googleusercontent.com/search?q=cache:F5Cje2_xM00J:https://gamea
 https://gamedevelopment.tutsplus.com/articles/marketing-your-indie-game-the-single-most-important-thing-to-learn--gamedev-7157
 
 https://zackbellgames.com/2015/03/31/effects-blood-splatter/
+
+Essayer de recréer un child de "obj_light" (ou si ça marche pas dupliquer l'objet light, et remplacer le create event par :
+//----------------------------------------------------------------------------------------------------
+light = light_create_point(x, y, Light_Shadow_Length, Light_Color, Light_Range, Light_Intensity);
+sprite_index = spr_light_point;
+break;
+
+// Set LUTs
+if(LUT_Intensity != noone)
+{
+	light[| eLight.LutIntensity] = sprite_get_texture(LUT_Intensity, 0);
+}
+
+// Add the light to the world
+light_add_to_world(light);
+//----------------------------------------------------------------------------------------------------
+Débugger pour voir quelles sont les valeurs par défaut de Light_Shadow_Length, Light_Color, Light_Range, Light_Intensity.
+Jouer avec ces valeurs et avec la couleur du sol pour obtenir une couleur chaude et tamisée.
+Rajouter un step event et faire varier la Light_Intensity en rythme avec la musique.
+Rajouter des torches au mur, et rajouter un step event en faisant varier aléatoirement Light_Range pour obtenir un effet tremblant des torches.
+
+Sprite Torche
+Particules torche
+Sol (uni avec des tâches ?)
+Cailloux
+Particules dans l'air
+Minuscules papillons qui volettent
