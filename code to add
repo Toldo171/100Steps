@@ -19,14 +19,4 @@ if(LUT_Intensity != noone)
 // Add the light to the world
 light_add_to_world(light);
 //----------------------------------------------------------------------------------------------------
-Débugger pour voir quelles sont les valeurs par défaut de Light_Shadow_Length, Light_Color, Light_Range, Light_Intensity.
-Jouer avec ces valeurs et avec la couleur du sol pour obtenir une couleur chaude et tamisée.
-Rajouter un step event et faire varier la Light_Intensity en rythme avec la musique.
 Rajouter des torches au mur, et rajouter un step event en faisant varier aléatoirement Light_Range pour obtenir un effet tremblant des torches.
-
-Sprite Torche
-Particules torche
-Sol (uni avec des tâches ?)
-Cailloux
-Particules dans l'air
-Minuscules papillons qui volettent
