@@ -5,6 +5,10 @@ state = states.idle;
 x_pos = x div tile_width;
 y_pos = y div tile_height;
 
+//Alarm for blinking effect
+alarm[0] = -1;
+blinking_duration = 15;
+
 //Hero direction
 dir = directions.down
 

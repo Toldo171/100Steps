@@ -11,6 +11,7 @@ with (other)
 	{
 		currentHearts -= obj_Hero.attack;
 	}
+	alarm[0] = blinking_duration;
 }
 
 //Destroy bullet, play sound and Launch screenshake

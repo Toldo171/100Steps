@@ -1,6 +1,9 @@
 image_xscale = remaining_steps / 150;
 image_yscale = remaining_steps / 150;
 
+//Blinking effect
+blinkOnHit();
+
 //Move Hero
 if (keyboard_check_pressed(vk_left) and place_free(x - tile_width, y))
 {

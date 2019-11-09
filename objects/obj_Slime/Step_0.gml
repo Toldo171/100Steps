@@ -1,14 +1,7 @@
-//Setup movement and shooting delays
-if (alarm[0] == -1)
-{
-	alarm[0] = action_delay;
-}
+event_inherited();
 
 //AI Behaviour
 activateSlimeAI();
-
-//Animate Ennemy
-animateCharacter();
 
 //Kill slime
 checkDeadEnnemy();

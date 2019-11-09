@@ -3,7 +3,7 @@
 //------------------------------------------------------------
 //argument0 = NA
 
-if (alarm[0] == 0)
+if (alarm[1] == 0)
 {
 	if (action_count == 0 or action_count == 1)
 	{

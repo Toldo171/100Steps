@@ -1,4 +1,8 @@
-obj_Hero.currentHearts -= attack;
+with (obj_Hero)
+{
+	currentHearts -= obj_Projectile_Ennemy.attack;
+	alarm[0] = blinking_duration;
+}
 
 //Destroy bullet, play sound and Launch screenshake
 instance_destroy();

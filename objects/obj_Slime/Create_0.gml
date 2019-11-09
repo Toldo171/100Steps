@@ -18,7 +18,7 @@ idle_sprite[directions.up] = spr_Slime_Back;
 idle_sprite[directions.down] = spr_Slime_Front;
 
 //Alarms for moving and shooting AI
-alarm[0] = -1;
+alarm[1] = -1;
 action_delay = (game_get_speed(gamespeed_fps) / (music1_BPM / 60)) - 1;
 action_count = 0;
 
@@ -36,4 +36,4 @@ thresholds = [1, 0, 0, 0]
 
 //Stats
 attack = 1;
-currentHearts = 10;
+currentHearts = 20;

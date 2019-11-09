@@ -34,3 +34,7 @@ tile_map = layer_tilemap_get_id(tile_layer);
 //life
 attack = 1;
 currentHearts = 3;
+
+//Alarm for blinking effect
+alarm[0] = -1;
+blinking_duration = 15;
