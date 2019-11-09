@@ -1,7 +1,7 @@
 //light = light_create_point(x, y, Light_Shadow_Length, Light_Color, Light_Range, Light_Intensity);
 initial_shadow_length = 32000;
-initial_light_range = 120;
-initial_light_intensity = 2;
+initial_light_range = 768;
+initial_light_intensity = 0.7;
 
 light = light_create_point(x, y, initial_shadow_length, Light_Color, initial_light_range, initial_light_intensity);
 sprite_index = spr_light_point;
