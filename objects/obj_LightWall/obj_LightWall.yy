@@ -2,7 +2,7 @@
     "id": "d5bbc947-fae5-43e4-9b26-ac1785de1c77",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_LightTest",
+    "name": "obj_LightWall",
     "eventList": [
         {
             "id": "c9b7421f-9119-496b-965b-e02069f0792a",

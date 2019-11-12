@@ -1,5 +1,6 @@
-image_xscale = remaining_steps / 150;
-image_yscale = remaining_steps / 150;
+//If I want to scale the hero size according to remaining steps
+//image_xscale = remaining_steps / 150;
+//image_yscale = remaining_steps / 150;
 
 //Blinking effect
 blinkOnHit();

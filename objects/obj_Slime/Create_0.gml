@@ -36,4 +36,4 @@ thresholds = [1, 0, 0, 0]
 
 //Stats
 attack = 1;
-currentHearts = 20;
+currentHearts = 10;
