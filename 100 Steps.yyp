@@ -703,6 +703,14 @@
             }
         },
         {
+            "Key": "663cc504-946a-48a0-9350-ae3fa3f9d1fe",
+            "Value": {
+                "id": "a4006411-cfc3-4408-b239-1e4b75aeeb27",
+                "resourcePath": "sprites\\spr_Trail\\spr_Trail.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "677401f7-3850-4ffc-8c02-eaf4068c0d82",
             "Value": {
                 "id": "a52981b5-aaea-450c-86ee-10826363dd32",
@@ -948,6 +956,14 @@
                 "id": "92b19e78-5188-47e4-b3cc-93706b9880b9",
                 "resourcePath": "scripts\\light_destroy\\light_destroy.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "83c2b630-73d0-4179-86a7-2b44176bddb6",
+            "Value": {
+                "id": "4ec09f19-75b7-4c35-b7b0-883db3fcc79e",
+                "resourcePath": "objects\\obj_ParticleTrail\\obj_ParticleTrail.yy",
+                "resourceType": "GMObject"
             }
         },
         {

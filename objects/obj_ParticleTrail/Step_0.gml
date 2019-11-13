@@ -18,7 +18,7 @@ if (instance_exists(obj_DrawSplatter))
 {
     surface_set_target(obj_DrawSplatter.surf);
 	//Adapt x and y according to the position of the surface, and on the middle of the tile (+16))
-    draw_sprite_ext(spr_Splatter, 0, x - 5 * tile_width + 16, y - tile_height + 16, image_xscale, image_yscale, image_angle, c_white, image_alpha);
+    draw_sprite_ext(spr_Trail, 0, x - 5 * tile_width + irandom_range(8, 24), y - tile_height + irandom_range(8, 24), image_xscale, image_yscale, image_angle, c_white, image_alpha);
     surface_reset_target();  
 }
 
