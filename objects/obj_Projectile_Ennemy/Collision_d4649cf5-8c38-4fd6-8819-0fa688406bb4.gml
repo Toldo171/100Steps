@@ -4,7 +4,8 @@ with (obj_Hero)
 	alarm[0] = blinking_duration;
 }
 
-//Destroy bullet, play sound and Launch screenshake
+//Destroy bullet, add particles from the middle of the projectile play sound and Launch screenshake
+instance_create_layer(x + 16, y + 16, "LightAndParticles", obj_ParticleProjectile)
 instance_destroy();
 playSound("hitHero");
 with (obj_ScreenShake)

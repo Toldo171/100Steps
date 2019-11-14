@@ -11,9 +11,3 @@ part_type_color3(part_type, c_yellow, c_orange, c_red);
 part_type_life(part_type, game_get_speed(gamespeed_fps), game_get_speed(gamespeed_fps) * 1.5);
 part_type_scale(part_type, 0.05, 0.05);
 part_type_gravity(part_type, 0.003, 90);
-
-//Choosing the region where the particles will be emitted
-part_emitter_region(part_system, part_emitter, x, x + 5, y - 5, y, ps_shape_diamond, ps_distr_invgaussian);
-
-//Emitting a burst of particles
-part_emitter_burst(part_system, part_emitter, part_type, 1);

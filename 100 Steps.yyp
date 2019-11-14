@@ -1135,6 +1135,14 @@
             }
         },
         {
+            "Key": "a1908da3-e336-4618-9c02-ed634d9bd264",
+            "Value": {
+                "id": "b85c3fd0-f098-4cfb-ae7d-50c9b2ac75d8",
+                "resourcePath": "objects\\obj_ParticleProjectile\\obj_ParticleProjectile.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "a1cb7303-1f32-43bc-b2ec-84afab78c736",
             "Value": {
                 "id": "f8df728d-2df7-479a-9d65-9f5039609f39",

@@ -15,6 +15,7 @@ with (other)
 }
 
 //Destroy bullet, play sound and Launch screenshake
+instance_create_layer(x + 16, y + 16, "LightAndParticles", obj_ParticleProjectile)
 instance_destroy();
 playSound("hitEnnemy");
 with (obj_ScreenShake)
