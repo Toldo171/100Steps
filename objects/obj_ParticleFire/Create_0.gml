@@ -12,5 +12,8 @@ part_type_life(part_type, game_get_speed(gamespeed_fps), game_get_speed(gamespee
 part_type_scale(part_type, 0.05, 0.05);
 part_type_gravity(part_type, 0.003, 90);
 
-//We don't want a stream of particles, we want a burst of particles (see Step Event)
-//part_emitter_stream(part_system, part_emitter, part_type, 4);
+//Choosing the region where the particles will be emitted
+part_emitter_region(part_system, part_emitter, x, x + 5, y - 5, y, ps_shape_diamond, ps_distr_invgaussian);
+
+//Emitting a burst of particles
+part_emitter_burst(part_system, part_emitter, part_type, 1);
