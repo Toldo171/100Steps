@@ -1,28 +1,18 @@
 {
-    "id": "deb29d9f-c360-4443-b645-f8d0f26e3daa",
+    "id": "c087c83e-04d8-41a3-9253-97fa4be72b17",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_ChangeRoom",
+    "name": "obj_DungeonGeneration",
     "eventList": [
         {
-            "id": "cefcf140-aaa5-4b23-b9b9-22af0d59fec3",
+            "id": "32c1a8be-44fa-498a-ae19-2c802c482fe4",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "deb29d9f-c360-4443-b645-f8d0f26e3daa"
-        },
-        {
-            "id": "12ff4aac-bcfe-42ef-a79f-c8a2a47a80ed",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 3,
-            "m_owner": "deb29d9f-c360-4443-b645-f8d0f26e3daa"
+            "m_owner": "c087c83e-04d8-41a3-9253-97fa4be72b17"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -43,6 +33,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "387dd101-b978-4622-b335-8d67b939683e",
+    "spriteId": "00000000-0000-0000-0000-000000000000",
     "visible": true
 }

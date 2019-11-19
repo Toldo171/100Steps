@@ -898,7 +898,7 @@
             "Key": "77023187-3299-421c-b5b2-c8542ff8d297",
             "Value": {
                 "id": "09686c65-587a-426e-8af0-c91fe9a95f19",
-                "resourcePath": "rooms\\room_0_0\\room_0_0.yy",
+                "resourcePath": "rooms\\room_Test\\room_Test.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -1527,6 +1527,14 @@
             }
         },
         {
+            "Key": "c087c83e-04d8-41a3-9253-97fa4be72b17",
+            "Value": {
+                "id": "23f08f61-1323-4b6b-a15e-2068dda5ae05",
+                "resourcePath": "objects\\obj_DungeonGeneration\\obj_DungeonGeneration.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "c2ffc96f-4c14-4593-9099-9732e9116305",
             "Value": {
                 "id": "b3165520-dab2-49af-8e05-c33273a93710",
@@ -1831,6 +1839,14 @@
             }
         },
         {
+            "Key": "f20ada98-6006-47a7-b327-955437dcc3df",
+            "Value": {
+                "id": "211843e4-5b84-43e1-818f-7fc69f159b26",
+                "resourcePath": "rooms\\room_DungeonGeneration\\room_DungeonGeneration.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "f2f863d8-cac0-4e99-8340-b40aabcae45f",
             "Value": {
                 "id": "98f8edff-c9d1-4600-b5dc-36a6dee41fab",
@@ -1868,6 +1884,14 @@
                 "id": "b96736b6-bb37-4b6c-9359-4614bf3b5377",
                 "resourcePath": "objects\\obj_Red_Pixie\\obj_Red_Pixie.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "f659776e-6be2-4b94-ab18-6f68fceeedb6",
+            "Value": {
+                "id": "fa928251-e17d-475e-bee7-b7111564ff20",
+                "resourcePath": "rooms\\room_Template\\room_Template.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
