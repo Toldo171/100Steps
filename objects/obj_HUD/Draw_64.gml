@@ -70,8 +70,8 @@ if (obj_Hero.hasGreenPixie == true) { draw_sprite(spr_Green_Pixie, 0, x_green_pi
 
 
 //DEBUG
-/*draw_text(32, 300, string(obj_Hero.x));
-draw_text(64, 300, string(obj_Hero.y));
+draw_text(32, 300, string(room));
+/*draw_text(64, 300, string(obj_Hero.y));
 draw_text(32, 330, string(obj_Hero.x_pos));
 draw_text(64, 330, string(obj_Hero.y_pos));
 draw_text(32, 360, string(obj_Hero.x_from));

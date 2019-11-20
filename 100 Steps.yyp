@@ -119,6 +119,14 @@
             }
         },
         {
+            "Key": "0a7bcdfb-5737-468a-b611-1aadccc0dd4c",
+            "Value": {
+                "id": "48ef7522-4f45-4568-a9d4-1bd973efc8b7",
+                "resourcePath": "objects\\obj_RoomGeneration\\obj_RoomGeneration.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "0bc37551-88ad-45ca-ba09-33ccccbb6d7d",
             "Value": {
                 "id": "6595e725-17f3-41a3-a2f1-94997a0ac82a",
