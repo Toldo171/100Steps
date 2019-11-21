@@ -5,6 +5,8 @@ gml_pragma("global", "MACRO()");
 #macro tile_width 32
 #macro tile_height 32
 #macro max_possible_hearts 8
+#macro dungeon_width 3
+#macro dungeon_height 3
 
 //Crypteque COTN for testing
 #macro music1_BPM 120

@@ -1407,6 +1407,14 @@
             }
         },
         {
+            "Key": "af463998-e5d7-48f8-8094-ec0c91b54ece",
+            "Value": {
+                "id": "38fa00d3-2843-42f6-ac12-3a9426531170",
+                "resourcePath": "rooms\\room_NewDungeonGeneration\\room_NewDungeonGeneration.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "afe51d61-50aa-40f9-911a-b317179f5823",
             "Value": {
                 "id": "3e607d35-ae33-431b-9dee-8bfb0c90f25d",
